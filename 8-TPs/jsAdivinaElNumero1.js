@@ -12,10 +12,12 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
-	 
+  var numero;
+  
+  //Genero el número RANDOM entre 1 y 100
+	 numero=parseInt((Math.random()*(101-1))+1)
 		//alert(numeroSecreto );
-	
+	alert(numerosecreto);
 
 }
 
